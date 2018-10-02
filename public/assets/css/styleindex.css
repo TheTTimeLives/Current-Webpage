@@ -1,0 +1,374 @@
+body{
+    background-color: black;
+    color:white;
+    height: 100vh;
+  }
+  
+  textarea {
+    color: white;
+  }
+  
+  input {
+    color: white;
+  }
+  
+  /* .row{
+    height: 100vh;
+    //this is a fix for the contact form
+  } */
+  
+  .white {
+    color: white;
+  }
+  
+  .contain{
+    position: relative;
+    height: 100vh;
+  
+  
+  }
+  
+  #vertBar {
+  
+    display: inline-block;
+    position: fixed;
+    right: 49%;
+    width: 60px;
+    height: 100vh;
+    background-color: blue;
+    box-shadow: 0 0 5px 1px blue;
+    padding: 20px;
+    border-left: 11px solid white;
+  
+  
+  
+  }
+  
+  .eurostile {
+    font-family:"eurostile";
+  }
+  
+  .bebaskai {
+    font-family: "bebas-kai";
+  
+  }
+  
+  .center {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    top: 200px;
+    /* transform: scale(1.2);  */
+  
+  }
+  
+  
+  
+  .animator {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  .animator:hover {
+    -webkit-animation-play-state: paused;
+    
+  
+  
+  }
+  
+  .grow:hover{
+    -webkit-animation-name: grow; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+    /* -webkit-animation-iteration-count: infinite; */
+  }
+  
+  @-webkit-keyframes grow {
+    0%   { transform: scale(1.0);}
+    100% { transform: scale(1.01);}
+  }
+  
+  
+  .title{
+    position: relative;
+    font-size: 60px;
+    text-align: left;
+    
+  }
+  
+  .subheader{
+    position: relative;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 15px;
+    color:blue;
+    
+  }
+  
+  .explain{
+    /* just do media queries */
+    position: relative;
+    font-size: 23px;
+    text-align: left;
+    
+    
+  }
+  
+  
+  /* @-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    50%  { left:0px; top:5px;}
+    100% { left:0px; top:0px;}
+  } */
+  
+  @-webkit-keyframes example {
+    /* will-change: transform; */
+  
+    0%   { transform: translateY(0%)}
+    50%  { transform: translateY(1%)}
+    100% { transform: translateY(0%)}
+  }
+  
+  
+  
+  
+  /* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+  
+  ::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: yellowgreen;  
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;  
+    }
+  
+  .row {
+    margin-bottom: 0px;
+  }
+  
+  .bg{
+    position: relative;
+    background-image: url('/assets/images/grain2.png');
+    left: 140px;
+    box-shadow: 0 0 1200px rgba(26, 26, 26, 0.9) inset
+    
+  }
+  
+  .vertical-text {
+      transform: rotate(-90deg);
+      transform-origin: left top 0;
+  }
+  
+  .bLeft {
+    position: absolute;
+    top: 98%;
+    left: 1%;
+    font-size: 30px;
+  
+  }
+  
+  .tLeft {
+    position: absolute;
+    left: 1%;
+    top: 10px;
+    /* right: 20px; */
+    font-size: 30px;
+  
+  }
+  
+  .bRight {
+    /* gonna need a media query for these if there not vh */
+    position: absolute;
+    top: 95%;
+    right: 6%;
+    font-size: 30px;
+  
+  }
+  
+  .tRight {
+    position: absolute;
+    right: 6%;
+    top: 40px;
+    /* right: 20px; */
+    font-size: 30px;
+  
+  }
+  
+  .logo{
+    height:30px;
+    width:30px;
+  }
+  
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .fullscreen-bg {
+    position: fixed;
+    /* right: 00px; */
+    height: 100%;
+  
+    /* transform: scale(1.3); */
+    /* right: 70px; */
+    /* these are for back2 */
+  
+  
+  
+    transform: scale(1.07); 
+    /* this is for pill pair */
+  
+    top: 30px;
+    /* this is for the main one */
+    overflow: hidden;
+    z-index: -100;
+  }
+  
+  
+    .bgvid{
+      min-width: 100%;
+      min-height: 100%;
+  
+    }
+  
+  
+    #dropdown1{
+      top: 90%;
+      background-color:rgba(0, 0, 0, 0);
+    }
+  
+    li{
+      background-color:rgba(0, 0, 0, 0);
+  
+    }
+  
+    .dropdown-content li:hover, .dropdown-content li.active {
+      /* background-color: #eee; */
+      background-color:rgba(0, 0, 0, 0);
+      /* background-color: black; */
+  
+    }
+  
+    .pillpair {
+      background-color: white;
+    }
+  
+    .icon{
+      background-color: black;
+    }
+  
+    .me{
+      background-color: yellow;
+    }
+  
+    .back2 {
+      background-color: orange;
+    }
+  
+    .contact {
+      background-color: green;
+    }
+  
+    .fLeft {
+      float: left;
+      margin: 30px;
+      margin-bottom: 0px;
+    }
+
+    nav{
+        position:absolute;
+        bottom: 0px;
+        background-color: yellow;
+        box-shadow: 0 0;
+        width: 10%;
+        align: right;
+        
+
+    }
+
+    .centering {
+        display: flex;
+        justify-content: center;
+    
+      }
+
+    .rotator{
+        display: inline;        
+        padding: 10px;
+
+
+
+        
+      }
+
+      .rotatorB{
+        display: inline ;       
+        padding: 10px;
+
+
+
+
+
+
+        
+      }
+
+      #myNav{
+          background-color: yellow;
+          width: 15%;
+          height: 75px;
+          position: absolute;
+          bottom: 20px;
+          right: 25px;
+
+          border: 8px solid white;
+
+      }
+      
+      #dropdown1{
+        top: 90%;
+        background-color:rgba(0, 0, 0, 0);
+        width: 80px;
+      }
+
+      #dropdown2{
+        top: 90%;
+        background-color:rgba(0, 0, 0, 0);
+        width: 80px;
+      }
+
+      .btn{
+          /* background-color:black; */
+          background-image: url('/assets/images/grain2.png');
+          border: 3px solid white;
+
+          font-family: "bebas-kai";
+          /* font-family:"eurostile"; */
+
+          letter-spacing: 3px;
+          line-height: 31px;
+          box-shadow: 0 0;
+
+
+      }
+  
+  

@@ -1,0 +1,4505 @@
+body{
+    background-color: black;
+    color:white;
+    height: 100vh;
+  }
+
+  .modalBack2{
+    background-image: url('../images/lightbrownwood.png');
+
+    border: 12px solid white;
+    border-radius: 0px;
+    max-height: 80%;
+    }
+
+    .border {
+        border: 8px solid white;
+
+
+    }
+
+    .inline {
+        display: none;
+    }
+
+    .modalPillpair{
+        background-image: url('../images/funky-lines.png');
+
+        border: 12px solid white;
+        border-radius: 0px;
+        max-height: 80%;
+        }
+  
+  textarea {
+    color: white;
+  }
+  
+  input {
+    color: white;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .contain{
+    position: relative;
+    height: 100vh;
+  }
+
+  #vertBar {
+  
+    display: inline-block;
+    position: fixed;
+    right: 49%;
+    width: 60px;
+    height: 100vh;
+    background-color: yellow;
+    /* box-shadow: 0 0 5px 1px blue; */
+    padding: 20px;
+    border-left: 11px solid white;
+  
+  
+  
+  }
+
+  .linkColorpillpair{
+    color: rgb(27, 97, 102);
+
+  }
+
+  .linkColorpillpair:hover {
+    color: rgb(54, 189, 199);
+  }
+
+  .linkColorback2{
+    color:rgb(247, 192, 140);
+  
+  }
+  
+  .linkColorback2:hover {
+    color:rgb(252, 228, 206);
+  }
+  
+  .eurostile {
+    font-family:"eurostile";
+  }
+  
+  .bebaskai {
+    font-family: "bebas-kai";
+  
+  }
+  
+  .center {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    top: 100px;
+    /* transform: scale(1.2);  */
+  
+  }
+
+  
+  
+  .animator {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  .animator:hover {
+    -webkit-animation-play-state: paused;
+    
+  
+  
+  }
+  
+  .grow:hover{
+    -webkit-animation-name: grow; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+    /* -webkit-animation-iteration-count: infinite; */
+  }
+  
+  @-webkit-keyframes grow {
+    0%   { transform: scale(1.0);}
+    100% { transform: scale(1.01);}
+  }
+  
+  
+  .title{
+    position: relative;
+    font-size: 60px;
+    text-align: center;
+    
+  }
+  
+  .subheader{
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+    /* margin-bottom: 15px; */
+    color:blue;
+    
+  }
+  
+  .explain{
+    /* just do media queries */
+    position: relative;
+    font-size: 23px;
+    text-align: center;
+    
+    
+  }
+  
+  
+  /* @-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    50%  { left:0px; top:5px;}
+    100% { left:0px; top:0px;}
+  } */
+  
+  @-webkit-keyframes example {
+    /* will-change: transform; */
+  
+    0%   { transform: translateY(0%)}
+    50%  { transform: translateY(1%)}
+    100% { transform: translateY(0%)}
+  }
+  
+  
+  
+  
+  /* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+  
+  ::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: yellowgreen;  
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;  
+    }
+  
+  .row {
+    margin-bottom: 0px;
+  }
+  
+  .bg{
+    position: relative;
+    background-image: url('/assets/images/grain2noise.png');
+    left: 140px;
+    box-shadow: 0 0 1200px rgba(29, 29, 29, 0.9) inset
+    
+  }
+  
+  .vertical-text {
+      transform: rotate(-90deg);
+      transform-origin: left top 0;
+  }
+  
+  .bLeft {
+    position: absolute;
+    top: 98%;
+    left: 1%;
+    font-size: 30px;
+  
+  }
+  
+  .tLeft {
+    position: absolute;
+    left: 1%;
+    top: 10px;
+    /* right: 20px; */
+    font-size: 30px;
+  
+  }
+  
+  .bRight {
+    /* gonna need a media query for these if there not vh */
+    position: absolute;
+    top: 95.5%;
+    right: 7%;
+    font-size: 30px;
+  
+  }
+  
+  .tRight {
+    position: absolute;
+    right: 7%;
+    top: 20px;
+    /* right: 20px; */
+    font-size: 30px;
+  
+  }
+  
+  .logo{
+    height:30px;
+    width:30px;
+  }
+  
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .fullscreen-bg {
+    position: fixed;
+    /* right: 00px; */
+    height: 100%;
+    
+  
+    /* transform: scale(1.3); */
+    /* right: 70px; */
+    /* these are for back2 */
+  
+  
+  
+    transform: scale(1.07); 
+    /* this is for pill pair */
+  
+    top: 30px;
+    /* this is for the main one */
+    /* overflow: hidden; */
+    z-index: -100;
+  }
+  
+  
+    .bgvid{
+      min-width: 100%;
+      min-height: 100%;
+  
+    }
+  
+  
+   
+  
+   
+  
+    li{
+      background-color:rgba(0, 0, 0, 0);
+  
+    }
+  
+    .dropdown-content li:hover, .dropdown-content li.active {
+      /* background-color: #eee; */
+      background-color:rgba(0, 0, 0, 0);
+            /* background-color:yellow; */
+
+
+      /* background-color: black; */
+  
+    }
+
+    
+  
+    .pillpair {
+        background-color:rgba(0, 0, 0, 0.397);
+        border: 8px solid white;
+
+    }
+  
+    .icon{
+        background-color:rgba(0, 0, 0, 0.397);
+        border: 8px solid white;
+        
+    }
+
+    .dropdown-content li:hover, .dropdown-content li.active icon {
+        /* background-color: #eee; */
+        background-color:rgba(0, 0, 0, 0.829);
+
+        /* background-color:yellow; */
+  
+  
+        /* background-color: black; */
+    
+      }
+  
+    .me{
+        background-color:rgba(0, 0, 0, 0.397);
+        border: 8px solid white;
+        border-top: 0px;
+    }
+
+  
+    .back2 {
+        background-color:rgba(0, 0, 0, 0.397);
+        border: 8px solid white;
+        border-top: 0px;
+
+    }
+  
+    .contact {
+        background-color:rgba(0, 0, 0, 0.397);
+        border: 8px solid white;
+        border-top: 0px;
+
+    }
+
+    .highlight:hover{
+        color: yellow;
+
+    }
+  
+    .fLeft {
+      float: left;
+      margin: 30px;
+      margin-bottom: 0px;
+    }
+
+    nav{
+        position:absolute;
+        bottom: 0px;
+        background-color: yellow;
+        box-shadow: 0 0;
+        width: 10%;
+        align: right;
+        
+
+    }
+
+    .centering {
+        display: flex;
+        justify-content: center;
+    
+      }
+
+      .github{
+        background-color: white;
+      }
+
+    .rotator{
+        display: inline;        
+        padding: 10px;
+
+
+
+        
+      }
+
+      .rotatorB{
+        display: inline ;       
+        padding: 10px;
+
+
+
+
+
+
+        
+      }
+
+      #myNav{
+          background-color: yellow;
+          width: 15.5%;
+          height: 75px;
+          position: absolute;
+          bottom: 20px;
+          right: 25px;
+
+          border: 8px solid white;
+
+      }
+
+      #myNavLeft{
+        position: fixed;
+        margin: 0 auto;
+        background-color: yellow;
+        width: 300px;
+        left: 68%;
+        bottom: 1px;
+        height: 75px;
+        border: 8px solid white;
+        /* transform: scale(1) */
+    }
+      
+      #dropdown1{
+        top: 78%;
+        background-color:rgba(0, 0, 0, 0);
+        width: 80px;
+        box-shadow: 0 0;
+      }
+
+      #dropdown2{
+        top: 78%;
+        background-color:rgba(0, 0, 0, 0);
+        width: 80px;
+        box-shadow: 0 0;
+
+
+      }
+
+      #dropdown3{
+        top: 78%;
+        background-color:rgba(0, 0, 0, 0);
+        width: 80px;
+        box-shadow: 0 0;
+
+      }
+
+      #dropdown4{
+        top: 78%;
+        background-color:rgba(0, 0, 0, 0);
+        width: 80px;
+        box-shadow: 0 0;
+
+      }
+
+      .btn{
+          /* background-color:black; */
+          background-image: url('/assets/images/grain2noise.png');
+          border: 3px solid white;
+
+          font-family: "bebas-kai";
+          /* font-family:"eurostile"; */
+
+          letter-spacing: 3px;
+          line-height: 31px;
+          box-shadow: 0 0;
+
+
+      }
+
+      /* BREAK FOR QUERIES */
+
+      /* navs */
+
+      
+
+      @media only screen and (max-width: 850px){
+
+        #myNavLeft{
+            position: fixed;
+            margin: 0 auto;
+            width: 300px;
+            left: 62%;
+            bottom: 1px;
+            height: 75px;
+            border: 8px solid white;
+            /* transform: scale(1) */
+        }    
+    }
+
+    @media only screen and (max-width: 710px){
+
+        #myNavLeft{
+            position: fixed;
+            margin: 0 auto;
+            width: 300px;
+            left: 55%;
+            bottom: 1px;
+            height: 75px;
+            border: 8px solid white;
+            /* transform: scale(1) */
+        }    
+    }
+
+    @media only screen and (max-width: 612px){
+
+        #myNavLeft{
+            position: fixed;
+            margin: 0 auto;
+            width: 300px;
+            left: 48%;
+            bottom: 1px;
+            height: 75px;
+            border: 8px solid white;
+            /* transform: scale(1) */
+        }    
+    }
+
+    @media only screen and (max-width: 612px){
+
+        #myNavLeft{
+            display:none;
+            position: fixed;
+            margin: 0 auto;
+            width: 300px;
+            left: 48%;
+            bottom: 1px;
+            height: 75px;
+            border: 8px solid white;
+            /* transform: scale(1) */
+        }    
+
+        .inline {
+            display: inline;
+        }
+    }
+
+
+      /* etc */
+
+      @media only screen and (max-width: 1950px) and (max-height: 900px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 50px;
+            width: 70%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -30px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 24px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 7%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 20%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.8);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      @media only screen and (max-width: 900px) and (max-height: 1500px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 100px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 30px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 97%;
+            right: 15%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 15%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+
+        
+          
+
+          
+
+         
+        
+    }
+      
+      
+
+      @media only screen and (max-width: 1950px) and (max-height: 731px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 0px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 23px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 8%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 20%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      
+
+      /* 20 inch Desktop */
+
+      @media only screen and (max-width: 786px) and (max-height: 1300px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 100px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 30px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 97%;
+            right: 15%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 15%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 20%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+      
+      
+
+      @media only screen and (max-width: 1300px) and (max-height: 786px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 0px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 23px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 20%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      /* Notebook /w Touch */
+
+      @media only screen and (max-width: 1001px) and (max-height: 1280px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 100px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 30px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 97%;
+            right: 15%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 15%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 20%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+      
+      
+
+      @media only screen and (max-width: 1280px) and (max-height: 1001px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 0px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 26px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 25%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+
+
+      /* Amazon Kindle 8.9 HDX, Motorla Xoom, Xyboard Samasung Galaxy */
+
+      @media only screen and (max-width: 1280px) and (max-height: 800px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 0px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -70px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 22px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10%;
+            font-size: 25px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 25px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -22px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.6);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10%;
+            top: 15px;          
+          }
+
+          .dot {
+            height: 18px;
+            width: 18px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 25%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+      
+
+      @media only screen and (max-width: 800px) and (max-height: 1280px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 200px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 60px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            /* margin-top: -30px; */
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 32px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 96%;
+            right: 2%;
+            font-size: 35px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: .5%;
+            font-size: 35px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: 0;
+            top: -10px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.9);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 12px;
+            top: 12px;          
+          }
+
+          .dot {
+            height: 20px;
+            width: 20px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(1);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+        .rightCol {
+            width: 0px;
+            /* margin-left: auto;
+            left: auto;
+            right: auto; */
+        }
+
+        .leftCol {
+            width: 100%;
+            /* margin-left: auto;
+            left: auto;
+            right: auto; */
+        }
+
+        
+
+          
+
+         
+        
+    }
+
+      /* ipad */
+
+      @media only screen and (max-width: 999px) and (max-height: 900px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -50px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 45px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 25px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 13%;
+            font-size: 20px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 20px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -7%;
+            top: -32px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.5);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 12%;
+            top: 10px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.5);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+      
+
+      @media only screen and (max-width: 999px) and (max-height: 999px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 50px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 60px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -30px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 22px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94.5%;
+            right: 2%;
+            font-size: 30px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: .5%;
+            font-size: 30px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -2%;
+            top: -20px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.7);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 2%;
+            top: 12px;          
+          }
+
+          .dot {
+            height: 20px;
+            width: 20px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.8);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+        .rightCol {
+            width: 0px;
+            /* margin-left: auto;
+            left: auto;
+            right: auto; */
+        }
+
+        .leftCol {
+            width: 100%;
+            /* margin-left: auto;
+            left: auto;
+            right: auto; */
+        }
+
+        
+
+          
+
+         
+        
+    }
+
+      /* 7 Google Nexus */
+
+      /* Medium */
+
+      @media only screen and (max-width: 999px) and (max-height: 720px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -50px;
+            width: 85%;
+            right: 26px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 40px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -80px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 22px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94.5%;
+            right: 13px;
+            font-size: 20px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 20px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -7%;
+            top: -32px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.5);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10px;
+            top: 10px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 25%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.5);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+        #myNavLeft{
+            display:none;
+        }
+
+        .inline{
+            display:inline;
+        }
+
+          
+
+         
+        
+    }
+      
+
+      @media only screen and (max-width: 604px) and (max-height: 1024px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 5px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 50px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -50px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 27px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94.5%;
+            right: 2%;
+            font-size: 30px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: .5%;
+            font-size: 30px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -25px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.7);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 2%;
+            top: 9px;          
+          }
+
+          .dot {
+            height: 20px;
+            width: 20px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.7);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+        .rightCol {
+            width: 0px;
+            /* margin-left: auto;
+            left: auto;
+            right: auto; */
+        }
+
+        .leftCol {
+            width: 100%;
+            /* margin-left: auto;
+            left: auto;
+            right: auto; */
+        }
+
+        
+          
+
+        
+
+          
+
+         
+        
+    }
+
+      
+      
+      /* Small */
+
+      /* Droid 3/4, Razr, Atrix 4G/2 */
+
+      
+
+      
+
+      @media only screen and (max-width: 2000px) and (max-height: 600px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -50px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94%;
+            right: 12%;
+            font-size: 20px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 20px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -32px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.5);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 12%;
+            top: 10px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 25%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.5);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+
+        #myNavLeft{
+            display:none;
+        }
+
+        .inline{
+            display:inline;
+        }
+          
+          
+
+          
+
+         
+        
+    }
+
+    @media only screen and (max-width: 999px) and (max-height: 600px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -50px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 19px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94%;
+            right: 10px;
+            font-size: 20px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 20px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -32px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.5);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10px;
+            top: 10px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 25%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.5);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+
+        #myNavLeft{
+            display:none;
+        }
+
+        .inline{
+            display:inline;
+        }
+          
+          
+
+          
+
+         
+        
+    }
+
+    @media only screen and (max-width: 2000px) and (max-height: 500px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -50px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 0px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94%;
+            right: 1%;
+            font-size: 20px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 20px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -4%;
+            top: -32px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.5);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 1%;
+            top: 10px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 25%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.5);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+
+        #myNavLeft{
+            display:none;
+        }
+
+        .inline{
+            display:inline;
+        }
+          
+          
+
+          
+
+         
+        
+    }
+    
+      
+
+      @media only screen and (max-width: 600px) and (max-height: 1680px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -60px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 50px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -50px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 19px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 97%;
+            right: 5px;
+            font-size: 20px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: .5%;
+            font-size: 20px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -7%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.5);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 9px;
+            top: 9px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.5);  
+            position: relative;
+            bottom: -40px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+
+
+      /* iPhone 5.5 inch, LG Optimus LTE, 4X HD, Motorola Defy, Droid, Droid X, Milestone */
+
+      @media only screen and (max-width: 900px) and (max-height: 424px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -90px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 13px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10px;
+            font-size: 13px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 13px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -6%;
+            top: -42px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.3);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 8px;
+            top: 8px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: -36px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      @media only screen and (max-width: 424px) and (max-height: 900px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 20px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 40px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -40px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 96.5%;
+            right: 10px;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: 1%;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -10%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.45);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 7px;
+            top: 7px;          
+          }
+
+          .dot {
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.7);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+    /* 4.2 Blaxkberry */
+
+    @media only screen and (max-width: 640px) and (max-height: 384px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -120px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 13px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10px;
+            font-size: 13px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 13px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -6%;
+            top: -32px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.3);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 8px;
+            top: 8px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: -36px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      @media only screen and (max-width: 384px) and (max-height: 640px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 20px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -40px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 96.5%;
+            right: 10px;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 99%;
+            left: px;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -10%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.4);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 6px;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.7);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      /* 4.7 inch iPhone. Nexus 5, HTC Sensation, EVO 3D */
+
+      @media only screen and (max-width: 667px) and (max-height: 375px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -120px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -90px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 13px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 10px;
+            font-size: 13px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 13px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -6%;
+            top: -42px; 
+            /* right: -10px; */
+            font-size: 10px;
+             transform: scale(0.3);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10px;
+            top: 8px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              /* display:none; */
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: -30px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+
+        #myNavLeft{
+            display:none;
+        }
+
+        .inline{
+            display:inline;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      @media only screen and (max-width: 375px) and (max-height: 667px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 20px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -40px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 96%;
+            right: 10px;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 5px;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -10%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.4);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 7px;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.7);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      /* 4 inch iPhone */
+
+      @media only screen and (max-width: 620px) and (max-height: 460px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -110px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -110px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 13px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 93%;
+            right: 5px;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -7%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.4);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 10px;
+            top: 8px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      @media only screen and (max-width: 460px) and (max-height: 620px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 10px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -30px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 15px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 96%;
+            right: 10px;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -15%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.4);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 5px;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.7);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+    /* Google Nexus S, LG Optimus 2X/DS/BLACK, HTC EVO, Touch HD, Desire HD, Desire, 4 inch Google Nexus */
+
+    @media only screen and (max-width: 533px) and (max-height: 320px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -100px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -120px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 12px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 93%;
+            right: 3%;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -7%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.4);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 2%;
+            top: 8px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      @media only screen and (max-width: 320px) and (max-height: 533px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: 10px;
+            width: 85%;
+            right: 0px;
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            /* padding-top: -20px; */
+            margin-top: -30px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 15px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 95%;
+            right: 3%;
+            font-size: 15px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 0%;
+            font-size: 15px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -15%;
+            top: -35px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.4);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 2%;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.7);  
+            position: relative;
+            bottom: 0px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      /* 3.5' iPhone */
+
+      @media only screen and (max-width: 480px) and (max-height: 320px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -215px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            padding-top: 0px;
+            margin-top: -0px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 10px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94%;
+            right: 10px;
+            font-size: 10px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 10px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -10%;
+            top: -40px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.3);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 5px;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: -110px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+      
+
+    @media only screen and (max-width: 320px) and (max-height: 480px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -55px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 30px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            padding-top: 0px;
+            margin-top: -0px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 15px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 96%;
+            right: 10px;
+            font-size: 10px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 98%;
+            left: 1%;
+            font-size: 10px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: -16%;
+            top: -40px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0.3);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 5px;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: -30px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+    /* LG OPTIMUS ONE */
+
+    @media only screen and (max-width: 300px) and (max-height: 320px){ 
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -55px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 20px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            padding-top: 0px;
+            margin-top: -0px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 10px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94%;
+            right: 12%;
+            font-size: 10px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 97%;
+            left: 1%;
+            font-size: 10px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: 0%;
+            top: 0px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 2%;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.6);  
+            position: relative;
+            bottom: -30px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+
+        
+          
+
+          
+
+         
+        
+    }
+
+    @media only screen and (max-width: 320px) and (max-height: 300px){
+        body {
+            background-color: lightblue;
+        }
+
+        .center{
+            top: -150px;
+            width: 85%;
+            /* right: 20px; */
+        }
+            
+
+
+          .title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            font-size: 20px;
+            /* border: 3px solid green; */
+            padding: 10px;
+            padding-top: 0px;
+            margin-top: -0px;
+            /* top: 100px; */
+            /* transform: scale(1.2);  */
+          
+          }
+
+          .subheader{
+            position: relative;
+            font-size: 32px;
+            text-align: center;
+            /* margin-bottom: 15px; */
+            
+          }
+          
+          .explain{
+            /* just do media queries */
+            position: relative;
+            bottom: 10px;
+            font-size: 10px;
+            text-align: center;
+            width: 100%;
+            
+            
+          }
+
+          .bRight {
+            /* gonna need a media query for these if there not vh */
+            position: absolute;
+            top: 94%;
+            right: 12%;
+            font-size: 10px;
+          
+          }
+
+          .bLeft {
+            position: absolute;
+            top: 97%;
+            left: 1%;
+            font-size: 10px;
+          
+          }
+          
+          .tLeft {
+            position: absolute;
+            left: 0%;
+            top: 0px;
+            /* right: 20px; */
+            font-size: 10px;
+             transform: scale(0);  
+
+            
+          
+          }
+
+          .tRight {
+            position: absolute;
+            right: 2%;
+            top: 6px;          
+          }
+
+          .dot {
+            height: 10px;
+            width: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          #myNav{
+              display:none;
+            width: 40%;
+            height: 75px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+  
+            border: 8px solid white;
+  
+        }
+
+        .fullscreen-bg{
+            display:none;
+        }
+
+        .photo {
+            transform: scale(.3);  
+            position: relative;
+            bottom: -70px;
+
+
+        }
+
+        .hide {
+            display:none;
+        }
+          
+
+          
+
+         
+        
+    }
+
+          
+          
+
+          
+
+         
+        
+    
+
+      
