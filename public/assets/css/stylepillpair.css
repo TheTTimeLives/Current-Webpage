@@ -37,6 +37,11 @@ body{
   
   }
 
+  .inline {
+    display: none;
+    margin-left: 10px;
+}
+
   .modalBack2{
     background-image: url('../images/lightbrownwood.png');
   

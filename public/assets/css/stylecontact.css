@@ -151,6 +151,11 @@ body{
     
     
   }
+
+  .inline {
+    display: none;
+    margin-left: 10px;
+}
   
   
   /* @-webkit-keyframes example {

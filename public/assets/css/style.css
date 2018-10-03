@@ -19,9 +19,9 @@ body{
   }
 
   .inline {
-      display: none;
-  }
-
+    display: none;
+    margin-left: 10px;
+}
   .modalPillpair{
       background-image: url('../images/funky-lines.png');
 
