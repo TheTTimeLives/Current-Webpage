@@ -169,7 +169,7 @@ body{
   
   .bg{
     position: relative;
-    background-image: url('/assets/images/grain2.png');
+    background-image: url('/assets/images/grain2noise.jpg');
     left: 140px;
     box-shadow: 0 0 1200px rgba(26, 26, 26, 0.9) inset
     
@@ -363,7 +363,7 @@ body{
 
       .btn{
           /* background-color:black; */
-          background-image: url('/assets/images/grain2.png');
+          background-image: url('/assets/images/grain2noise.jpg');
           border: 3px solid white;
 
           font-family: "bebas-kai";

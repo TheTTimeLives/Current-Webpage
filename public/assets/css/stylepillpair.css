@@ -43,7 +43,7 @@ body{
 }
 
   .modalBack2{
-    background-image: url('../images/lightbrownwood.png');
+    background-image: url('../images/lightbrownwood.jpg');
   
     border: 12px solid white;
     border-radius: 0px;
@@ -205,7 +205,7 @@ body{
   
   .bg{
     position: relative;
-    background-image: url('/assets/images/grain2noise.png');
+    background-image: url('/assets/images/grain2noise.jpg');
     left: 140px;
     box-shadow: 0 0 1200px rgba(29, 29, 29, 0.9) inset
     

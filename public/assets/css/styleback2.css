@@ -29,7 +29,7 @@ body{
   }
 
   .modalBack2{
-    background-image: url('../images/lightbrownwood.png');
+    background-image: url('../images/lightbrownwood.jpg');
   
     border: 12px solid white;
     border-radius: 0px;
@@ -53,7 +53,7 @@ body{
     right: 49%;
     width: 60px;
     height: 100vh;
-    background-image: url('../images/lightbrownwoodb.png');
+    background-image: url('../images/lightbrownwoodb.jpg');
     padding: 20px;
     border-left: 11px solid white;
   
@@ -204,7 +204,7 @@ body{
   
   .bg{
     position: relative;
-    background-image: url('/assets/images/grain2noise.png');
+    background-image: url('/assets/images/grain2noise.jpg');
     left: 140px;
     box-shadow: 0 0 1200px rgba(29, 29, 29, 0.9) inset
     
@@ -408,7 +408,7 @@ body{
       }
 
       #myNav{
-        background-image: url('../images/lightbrownwood.png');
+        background-image: url('../images/lightbrownwood.jpg');
         width: 15.5%;
         height: 75px;
         position: absolute;
@@ -422,7 +422,7 @@ body{
       #myNavLeft{
         position: fixed;
         margin: 0 auto;
-        background-image: url('../images/lightbrownwood.png');
+        background-image: url('../images/lightbrownwood.jpg');
 
         width: 300px;
         left: 68%;
@@ -475,7 +475,7 @@ body{
       
       .btn{
           /* background-color:black; */
-          background-image: url('/assets/images/grain2noise.png');
+          background-image: url('/assets/images/grain2noise.jpg');
           border: 3px solid white;
 
           font-family: "bebas-kai";
