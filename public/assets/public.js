@@ -29,6 +29,11 @@ $('.pillpairLink').on('click', function (){
     window.location.href = '/pillpair'
 })
 
+$('.orlandrinksLink').on('click', function (){
+    console.log('orlandrinks');
+    window.location.href = '/orlandrinks'
+})
+
 $('.landingLink').on('click', function (){
     console.log('pill pair clicked');
     window.location.href = '/'

@@ -13,6 +13,11 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../../back2.html"));
     });
 
+    app.get('/orlandrinks', function (req, res) {
+        // res.send(console.log('Get at index has been pinged'));
+        res.sendFile(path.join(__dirname, "../../orlandrinks.html"));
+    });
+
     app.get('/pillpair', function (req, res) {
         // res.send(console.log('Get at index has been pinged'));
         res.sendFile(path.join(__dirname, "../../pillpair.html"));

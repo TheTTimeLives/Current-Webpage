@@ -73,6 +73,9 @@
                 <div class='inline contactLink highlight'>
                     CONTACT
                 </div>
+                <div class='inline orlandrinksLink highlight'>
+                    ORLANDRINKS
+                </div>
                 <div class='inline pillpairLink highlight'>
                     PILL PAIR
                 </div>
@@ -91,7 +94,7 @@
 
             <div class='centering'>
                 <div class="fullscreen-bg">
-                    <video muted autoplay loop poster="assets/images/render2image.png" class="fullscreen-bg__video">
+                    <video muted autoplay loop poster="assets/images/back2bcover.jpg" class="fullscreen-bg__video">
 
                         <source src="/assets/images/back2b.mp4" type="video/mp4">
 
@@ -144,6 +147,9 @@
                                 <a href='https://github.com/TheTTimeLives'>
                                     <img class="responsive-img" src="/assets/images/Mark.png" alt="Smiley face" height="120" width="150">
                                 </a>
+                            </li>
+                            <li class='orlandrinks'>
+                                <img class="responsive-img orlandrinksLink" src="/assets/images/orlandrinks1.png" alt="Smiley face" height="120" width="150">
                             </li>
                             <li class='pillpair'>
                                 <img class="responsive-img pillpairLink" src="/assets/images/pillpair.png" alt="Smiley face" height="120" width="150">
@@ -219,6 +225,10 @@
                                 <img class="responsive-img" src="/assets/images/Mark.png" alt="Smiley face" height="120" width="150">
                             </a>
                         </li>
+                        <li class='orlandrinks'>
+                            <img class="responsive-img modal-trigger" src="/assets/images/orlandrinks1.png" alt="Smiley face" height="120" width="150"
+                                href="#modal3">
+                        </li>
                         <li class='pillpair'>
                             <img class="responsive-img modal-trigger" src="/assets/images/pillpair.png" alt="Smiley face" height="120" width="150" href="#modal1">
                         </li>
@@ -238,38 +248,57 @@
             </div>
 
             <div id="modal1" class="modal modalPillpair">
-                    <div class="modal-content">
-                        <a href="http://www.pillpair.com">
-                            <h4 class='centering bebaskai linkColorpillpair'>Click here for Pill Pair</h4>
-                        </a>
-                        <video class="responsive-video border" controls>
-                            <source src="/assets/images/pillpairvid.mp4" type="video/mp4">
-                        </video>
-    
-                    </div>
-                    <!-- <div class="modal-footer">
+                <div class="modal-content">
+                    <a href="http://www.pillpair.com">
+                        <h4 class='centering bebaskai linkColorpillpair'>Click here for Pill Pair</h4>
+                    </a>
+                    <video class="responsive-video border" controls>
+                        <source src="/assets/images/pillpairvid.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+                <!-- <div class="modal-footer">
                               <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
                             </div> -->
+            </div>
+
+            <div id="modal2" class="modal modalBack2">
+                <div class="modal-content">
+                    <!-- <h4>Modal Header</h4> -->
+                    <a href="https://back2.herokuapp.com/index">
+                        <h4 class='centering bebaskai linkColorback2'>Click here for Back2</h4>
+                    </a>
+
+
+                    <video class="responsive-video border" controls muted>
+                        <source src="/assets/images/back2b.mp4" type="video/mp4">
+
+                    </video>
+
                 </div>
-    
-                <div id="modal2" class="modal modalBack2">
-                    <div class="modal-content">
-                        <!-- <h4>Modal Header</h4> -->
-                        <a href="https://back2.herokuapp.com/index">
-                            <h4 class='centering bebaskai linkColorback2'>Click here for Back2</h4>
-                        </a>
-    
-    
-                        <video class="responsive-video border" controls>
-                            <source src="/assets/images/back2b.mp4" type="video/mp4">
-    
-                        </video>
-    
-                    </div>
-                    <!-- <div class="modal-footer">
+                <!-- <div class="modal-footer">
                                   <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
                                 </div> -->
+            </div>
+
+            <div id="modal3" class="modal modalOrlandrinks">
+                <div class="modal-content">
+                    <!-- <h4>Modal Header</h4> -->
+                    <a href="https://orlandrinks.herokuapp.com/index">
+                        <h4 class='centering bebaskai '>Click here for Orlandrinks</h4>
+                    </a>
+
+
+                    <video class="responsive-video border" controls>
+                        <source src="/assets/images/happyHourcn.mp4" type="video/mp4" controls muted>
+
+                    </video>
+
                 </div>
+                <!-- <div class="modal-footer">
+                                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                                </div> -->
+            </div>
 
 
 

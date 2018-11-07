@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+  background-color: rgb(14, 14, 14);
     color:white;
     height: 100vh;
   }
@@ -276,6 +276,11 @@ body{
     .pillpair {
       background-color: white;
     }
+
+    .orlandrinks{
+      background-color:rgba(0, 0, 0, 0.397);
+      border: 8px solid white;
+  }
   
     .icon{
       background-color: black;

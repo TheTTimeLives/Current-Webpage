@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     color:white;
     height: 100vh;
   }
@@ -314,8 +314,15 @@ body{
     .pillpair {
         background-color:rgba(0, 0, 0, 0.397);
         border: 8px solid white;
+        border-top: 0px;
+
 
     }
+
+    .orlandrinks{
+      background-color:rgba(0, 0, 0, 0.397);
+      border: 8px solid white;
+  }
   
     .icon{
         background-color:rgba(0, 0, 0, 0.397);
@@ -550,9 +557,7 @@ body{
       /* etc */
 
       @media only screen and (max-width: 1950px) and (max-height: 900px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 50px;
@@ -671,9 +676,7 @@ body{
     }
 
       @media only screen and (max-width: 900px) and (max-height: 1500px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 100px;
@@ -796,9 +799,7 @@ body{
       
 
       @media only screen and (max-width: 1950px) and (max-height: 731px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 0px;
@@ -921,9 +922,7 @@ body{
       /* 20 inch Desktop */
 
       @media only screen and (max-width: 786px) and (max-height: 1300px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 100px;
@@ -1044,9 +1043,7 @@ body{
       
 
       @media only screen and (max-width: 1300px) and (max-height: 786px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 0px;
@@ -1167,9 +1164,7 @@ body{
       /* Notebook /w Touch */
 
       @media only screen and (max-width: 1001px) and (max-height: 1280px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 100px;
@@ -1290,9 +1285,7 @@ body{
       
 
       @media only screen and (max-width: 1280px) and (max-height: 1001px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 0px;
@@ -1415,9 +1408,7 @@ body{
       /* Amazon Kindle 8.9 HDX, Motorla Xoom, Xyboard Samasung Galaxy */
 
       @media only screen and (max-width: 1280px) and (max-height: 800px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 0px;
@@ -1537,9 +1528,7 @@ body{
       
 
       @media only screen and (max-width: 800px) and (max-height: 1280px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 200px;
@@ -1678,9 +1667,7 @@ body{
       /* ipad */
 
       @media only screen and (max-width: 999px) and (max-height: 900px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -50px;
@@ -1800,9 +1787,7 @@ body{
       
 
       @media only screen and (max-width: 999px) and (max-height: 999px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 50px;
@@ -1943,9 +1928,7 @@ body{
       /* Medium */
 
       @media only screen and (max-width: 999px) and (max-height: 720px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -50px;
@@ -2072,9 +2055,7 @@ body{
       
 
       @media only screen and (max-width: 604px) and (max-height: 1024px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 5px;
@@ -2224,9 +2205,7 @@ body{
       
 
       @media only screen and (max-width: 2000px) and (max-height: 600px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -50px;
@@ -2354,9 +2333,7 @@ body{
     }
 
     @media only screen and (max-width: 999px) and (max-height: 600px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -50px;
@@ -2484,9 +2461,7 @@ body{
     }
 
     @media only screen and (max-width: 2000px) and (max-height: 500px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -50px;
@@ -2616,9 +2591,7 @@ body{
       
 
       @media only screen and (max-width: 600px) and (max-height: 1680px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -60px;
@@ -2744,9 +2717,7 @@ body{
       /* iPhone 5.5 inch, LG Optimus LTE, 4X HD, Motorola Defy, Droid, Droid X, Milestone */
 
       @media only screen and (max-width: 900px) and (max-height: 424px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -90px;
@@ -2865,9 +2836,7 @@ body{
     }
 
       @media only screen and (max-width: 424px) and (max-height: 900px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 20px;
@@ -2991,9 +2960,7 @@ body{
     /* 4.2 Blaxkberry */
 
     @media only screen and (max-width: 640px) and (max-height: 384px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -120px;
@@ -3112,9 +3079,7 @@ body{
     }
 
       @media only screen and (max-width: 384px) and (max-height: 640px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 20px;
@@ -3238,9 +3203,7 @@ body{
       /* 4.7 inch iPhone. Nexus 5, HTC Sensation, EVO 3D */
 
       @media only screen and (max-width: 667px) and (max-height: 375px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -120px;
@@ -3367,9 +3330,7 @@ body{
     }
 
       @media only screen and (max-width: 375px) and (max-height: 667px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 20px;
@@ -3493,9 +3454,7 @@ body{
       /* 4 inch iPhone */
 
       @media only screen and (max-width: 620px) and (max-height: 460px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -110px;
@@ -3617,9 +3576,7 @@ body{
     }
 
       @media only screen and (max-width: 460px) and (max-height: 620px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 10px;
@@ -3743,9 +3700,7 @@ body{
     /* Google Nexus S, LG Optimus 2X/DS/BLACK, HTC EVO, Touch HD, Desire HD, Desire, 4 inch Google Nexus */
 
     @media only screen and (max-width: 533px) and (max-height: 320px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -100px;
@@ -3867,9 +3822,7 @@ body{
     }
 
       @media only screen and (max-width: 320px) and (max-height: 533px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: 10px;
@@ -3993,9 +3946,7 @@ body{
       /* 3.5' iPhone */
 
       @media only screen and (max-width: 480px) and (max-height: 320px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -215px;
@@ -4119,9 +4070,7 @@ body{
       
 
     @media only screen and (max-width: 320px) and (max-height: 480px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -55px;
@@ -4245,9 +4194,7 @@ body{
     /* LG OPTIMUS ONE */
 
     @media only screen and (max-width: 300px) and (max-height: 320px){ 
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -55px;
@@ -4371,9 +4318,7 @@ body{
     }
 
     @media only screen and (max-width: 320px) and (max-height: 300px){
-        body {
-            background-color: lightblue;
-        }
+        
 
         .center{
             top: -150px;
